@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Poppins;
+    src: url('https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2');
+}
+
+*{
+    font-family: Poppins;
+}
+
+body{
+    background-color: white;
+}
+
+#imagebox{
+    margin: 80px auto 10px;
+    width: 230px;
+    text-align: center;
+}
+
+#imagebox img{
+    width: calc(100% - 10px);
+    border-radius: 115px;
+    border: solid 5px #2ebdaf;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #66d8cd;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    display: block;
+    margin: 30px auto;
+    height: 80px;
+    width: 200px;
+    background-color: #ffffff;
+    border: #2ebdaf solid 3px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #00463f;
+}
+
+.button:hover{
+    background-color: #2ebdaf;
+    color: #082421;
+    transition-duration: 0.25s;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: #ffffff;
+    color: #00463f;
+    transition-duration: 0ms;
+}
+
+#assets{
+    height: 50px;
+    width: 450px;
+    margin: 20px auto 0px;
+    text-align: center;
+}
+
+#assets img{
+    width: 36px;
+    margin: 14px 14px 0px;
+}
+
+#assets img:hover{
+    cursor: pointer;
+    width: 46px;
+    margin: 4px 9px 0px;
+}
