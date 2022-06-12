@@ -1,4 +1,4 @@
-## Desafios - HTML
+## Desafios - Social Tree
 Desafio de HTML e CSS para o programa Trainee da Empresa Júnior TITAN.
 
 #### Desafio:
